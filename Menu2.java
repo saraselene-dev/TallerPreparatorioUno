@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-public class Menu {
+public class Menu2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean continuar = true;
         System.out.println("Ingrese la dimensión del almacen");
         int n = sc.nextInt();
-        ObjProducto[][] almacen = new ObjProducto[n][n];
-        Metodos M = new Metodos();
+        ObjProducto2[][] almacen = new ObjProducto2[n][n];
+        Metodos2 M = new Metodos2();
 
         while (continuar) {
             System.out.println();

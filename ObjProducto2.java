@@ -1,12 +1,12 @@
-public class ObjProducto {
+public class ObjProducto2 {
     private  String Nombre;
     private double Precio;
     private int Cantidad;
     
-    public ObjProducto() {
+    public ObjProducto2() {
     }
 
-    public ObjProducto(String nombre, double precio, int cantidad) {
+    public ObjProducto2(String nombre, double precio, int cantidad) {
         Nombre = nombre;
         Precio = precio;
         Cantidad = cantidad;
